@@ -33,6 +33,7 @@ func newContext(w http.ResponseWriter, req *http.Request) *Context {
 	}
 }
 
+//调用下一个方法
 func (c *Context) Next() {
 	c.index++
 	s := len(c.handlers)
