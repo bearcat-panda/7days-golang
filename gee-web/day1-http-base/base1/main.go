@@ -8,7 +8,6 @@ package main
 
 import (
 	"fmt"
-	"github.com/gin-gonic/gin"
 	"log"
 	"net/http"
 )
